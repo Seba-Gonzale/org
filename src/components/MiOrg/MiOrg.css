@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .mi-org__title {
@@ -19,4 +20,13 @@
   position: absolute;
   right: 10%;
   cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .mi-org__title {
+    font-size: 2rem;
+  }
+  .mi-org img {
+    position: static;
+  }
 }

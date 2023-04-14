@@ -6,3 +6,13 @@
 .header img {
   width: 100%;
 }
+@media screen and (min-width: 0px) and (max-width: 574px) {
+  .header {
+    height: 50vw;
+  }
+  .header img {
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+  }
+}
